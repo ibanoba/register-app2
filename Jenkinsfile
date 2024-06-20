@@ -5,7 +5,7 @@ pipleline{
     maven 'Maven3'
   }
   stages{
-    stage("Cleanup Worksapce"){
+    stage("Cleanup Workspace"){
             steps {
               CleanWs()
           }
