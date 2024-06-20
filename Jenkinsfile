@@ -13,7 +13,7 @@ pipleline{
     
     stage("Checkout from SCM"){
             steps {
-              git branch: 'main', credentialsId: 'github', url: 'https://github.com/ibanoba/register-app.git'
+              git branch: 'main', credentialsId: 'github', url: 'https://github.com/ibanoba/register-app2.git'
           }
        }
     
