@@ -1,6 +1,6 @@
 pipleline{
   agent {label 'MyNode'}
-  tool{
+  tools{
     jdk 'Java17'
     maven 'Maven3'
   }
