@@ -1,4 +1,4 @@
-pipleline{
+pipeline{
   agent {label 'MyNode'}
   tools{
     jdk 'Java17'
